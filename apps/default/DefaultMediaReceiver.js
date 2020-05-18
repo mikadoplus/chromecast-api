@@ -62,7 +62,7 @@ class DefaultMediaReceiverApp extends DefaultMediaReceiver {
     }
 
     // If it's a video or audio file
-    if (media.contentType.indexOf('video') !== -1 || media.contentType.indexOf('audio') !== -1) {
+    if (media.contentType.indexOf('vnd.apple.mpegurl') !== -1 || media.contentType.indexOf('video') !== -1 || media.contentType.indexOf('audio') !== -1) {
       options.autoplay = true
       options.currentTime = opts.startTime || 0
     }
