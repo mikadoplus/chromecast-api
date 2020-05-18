@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/alxhotel/chromecast-api",
   "dependencies": {
-    "castv2-client": "github:mikadoplus/node-castv2-client#a6217ab",
+    "castv2-client": "github:mikadoplus/node-castv2-client#3ce7a2a",
     "debug": "^4.1.1",
     "dns-txt": "^2.0.2",
     "mime": "^2.3.1",
