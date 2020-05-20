@@ -4,7 +4,7 @@ const DefaultMediaReceiver = require('castv2-client').DefaultMediaReceiver
 
 class DefaultMediaReceiverApp extends DefaultMediaReceiver {
   load (resource, opts, callback) {
-    if (!callback) callback = noop
+    if (!callback) callback = null
 
     let media = {}
     const options = {}
